@@ -29,6 +29,12 @@
     -webkit-font-smoothing:antialiased;
     overflow-x:hidden;
   }
+  .bundle-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; /* Prevents cropping by fitting the whole image inside the space */
+}
   h1,h2,h3{
     font-family:'Fraunces',serif;
     font-weight:600;
